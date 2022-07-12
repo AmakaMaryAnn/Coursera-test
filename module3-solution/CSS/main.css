@@ -1,0 +1,84 @@
+* {
+            margin: 0;
+            padding: 0;
+			box-sizing: border-box;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: px;
+            margin-bottom: 30px;
+		}
+		section {
+			width: 93%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            background-color: #BEC2CB;
+           border: 2px solid black;
+		}
+    h4 {
+			text-align: center;
+      padding-top: 2px;
+      height: 27px;
+      border-bottom: 2px;
+      color: #000000;
+      font-size: 1.5em;
+      font-weight: bold;
+		}
+		p {
+			clear: right;
+      padding: 5px;
+      color: #000000;
+		}
+
+    #header-nav {
+      background-color: #BEC2CB;
+      background-color: ;
+			font-family: 'Oxygen', sans-serif;
+			border:2px solid black;
+}
+   .navbar-brand {
+     color: #000000;
+		}
+		
+.navbar-brand h1 {
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+		/******************* Desktop view *******************/
+      @media (min-width: 992px) {
+      .col-dk-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+       /**************** Tablet view *****************/
+      @media (min-width: 768px) and (max-width: 991px) {
+      .col-tb-6{
+        float: left;
+        width: 50%;
+    }
+      .col-tb-12{
+        float: left;
+        width: 100%;
+    }
+
+}
+      /***************** Mobile view *****************/
+       @media (max-width: 767px) {
+    
+       .col-mb-12{
+        float: left;
+        width: 100%;
+    }
+}
